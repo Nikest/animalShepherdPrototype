@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es6",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@Modules/*": ["src/modules/*"],
+      "@GameModules/*": ["src/modules/Game/*"]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
